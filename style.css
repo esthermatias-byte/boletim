@@ -115,3 +115,43 @@ tr:hover {
 .status-indisponivel {
   color: #a8a8b3;
 }
+
+/* ===== ACRÉSCIMOS PARA PIN, EDIÇÃO E MENSAGENS ===== */
+#tela-login input:focus {
+  outline: 2px solid #00b4d8;
+  outline-offset: 1px;
+}
+
+#tela-login button:disabled,
+#btn-alterar:disabled,
+#btn-salvar:disabled,
+#btn-cancelar:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.campo-invalido {
+  border: 2px solid #ff5555 !important;
+  background-color: #2a1616 !important;
+}
+
+input.nota-input,
+input.falta-input {
+  width: 70px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #29292e;
+  background-color: #121214;
+  color: #e1e1e6;
+  font-size: 0.9rem;
+}
+
+.msg-erro {
+  color: #ff5555;
+  font-weight: bold;
+}
+
+.msg-ok {
+  color: #00f5d4;
+  font-weight: bold;
+}
